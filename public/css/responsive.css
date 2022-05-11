@@ -1,0 +1,142 @@
+/* Untuk Tablet */
+@media only screen and (max-width: 1000px) {
+  /*main 1*/
+  .container, .jumbotron{
+    width: 100%;
+  }
+  /*end of main 1*/
+  /*main 2*/
+.coffee-menu, .cozy-gallery{
+    padding-top: 50px;
+  }
+
+   .coffee-desc, .cozy-desc{
+    text-align:center;
+    padding:10px 0px 0px 10px;
+    font-size:15px;
+  }
+  .coffee-desc p, .coffee-desc h2, .cozy-desc p, .cozy-desc h2{
+   margin: 0;
+  }
+  /*end of main 2*/
+
+  /*main 3*/
+  .konten {
+    width: 33%;
+    margin-bottom: 50px;
+  }
+
+  .konten2 {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  /*end of main 3*/
+}
+
+/* Untuk Smartphone */
+@media only screen and (max-width: 670px) {
+  .header-right {
+     display: none;
+   }
+   .menu-icon {
+     display: block;
+   }
+  /*main 1*/
+  .container, .jumbotron{
+    width: 100%;
+  }
+  h1{
+    font-size: 25px;
+    letter-spacing: none;
+    line-height: 30px;
+  }
+  .btn{
+    width: 60%;
+    margin-top: 0;
+  }
+
+  .loc{
+    display: none;
+  }
+  /*end of main 1*/
+
+  /*main 2*/
+  .li2, .li3{
+    height: 300px; 
+  }
+  .flex-list li {
+  width:100%
+  }
+
+  .heading h2{
+    font-size:15px;
+  }
+   .coffee-desc, .cozy-desc{
+    text-align:center;
+    padding:10px 0px 0px 10px;
+    font-size:15px;
+  }
+  .coffee-desc p, .coffee-desc h2, .cozy-desc p, .cozy-desc h2{
+   margin: 0;
+  }
+  .li2, .li3{
+    padding:40px 20px 0px 30px;
+    font-size:15px;
+  }
+  .coffee-menu, .cozy-gallery{
+    padding-top: 50px;
+  }
+  .li4, .li1{
+    display: none;
+  }
+  /*end of main 2*/
+
+  /*main 3*/
+  .main2 {
+    /*width: 100%;*/
+    display: none;
+  }
+
+  .konten2{
+    width: 100%;
+  }
+
+  .konten-img{
+    margin-bottom: 20px;
+  }
+  /*end of main 3*/
+
+  /*footer*/
+  .lesson {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 80%;
+  }
+
+  .facebook, .twitter{
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Yellowtail';
+    text-align: center;
+  }
+}
